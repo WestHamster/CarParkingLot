@@ -1,7 +1,10 @@
-import Vehicle
 import sys
 import argparse
 
+class Vehicle:
+	def __init__(self,regno,age):
+		self.age =  age
+		self.regno = regno
 
 class ParkingLot:
 	def __init__(self):
@@ -25,7 +28,7 @@ class ParkingLot:
 	def park(self,regno,age):
 		if self.numOfOccupiedSlots < self.capacity: 
 			slotid = self.getEmptySlot()
-			self.slots[slotid] = Vehicle.Car(regno,age)
+			self.slots[slotid] = Vehicle(regno,age)
 			self.slotid = self.slotid+1
 			self.numOfOccupiedSlots = self.numOfOccupiedSlots + 1
 			return slotid+1
