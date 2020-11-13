@@ -39,7 +39,7 @@ To exit the system, enter ‘exit’
 
 
 
+![Output ScreenShot](https://github.com/WestHamster/CarParkingLot/blob/master/Output_ss.png)
 
 
-
-[For complete documentation](shorturl.at/dils7)
+[For complete documentation](https://docs.google.com/document/d/12ztihGPNLlsXPlHqf7RuuzYlDw2Qv20F1J8kw2hTAOA/edit)
